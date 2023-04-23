@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+    body
+    {
+        margin:0px;
+    }
+
+    .header
+    {
+        position: relative;
+        top: 0px;
+        width: 100%;
+        min-width: 1280px;
+        height: 5vh;
+        background-color: white;
+    }
+    .nav
+    {
+        position: relative;
+        top: 0px;
+        margin: 0px auto;
+        width: 1280px;
+        min-width: 1280px;
+        height: 100%;
+        background-color: white;
+    }
+    .main
+    {
+        position: relative;
+        top: 0px;
+        width: 100%;
+        min-width: 1280px;
+        min-height: 90vh;
+        background-color: rgb(240,240,240);
+    }
+    .footer
+    {
+        position: relative;
+        top: 0px;
+        width: 100%;
+        min-width: 1280px;
+        height: 5vh;
+        background-color: black;
+    }
+    .header .nav .menu1
+    {
+        position: relative;
+        top: 10px;
+        float: left;
+        width: 140px;
+        cursor: pointer;
+    }
+    .header .nav .menu2
+    {
+        position: relative;
+        top: 10px;
+        float: left;
+        width: 140px;
+        cursor: pointer;
+    }
+    .header .nav .menu3
+    {
+        position: relative;
+        top: 10px;
+        float: left;
+        width: 140px;
+        cursor: pointer;
+    }
+    .header .nav .menu4
+    {
+        position: relative;
+        top: 10px;
+        float: left;
+        width: 140px;
+        cursor: pointer;
+    }
+    .header .nav .menu5
+    {
+        position: relative;
+        top: 10px;
+        float: left;
+        width: 140px;
+        cursor: pointer;
+    }
+    .main .section1
+    {
+        position: relative;
+        top: 0px;
+        margin: 0px auto;
+        width: 1280px;
+        height: 600px;
+        padding-top: 50px;
+    }
+    .main .section1 .img1
+    {
+        width: 1200px;
+        height: 600px;
+    }
+    .main .section2
+    {
+        position: relative;
+        top: 0px;
+        margin: 0px auto;
+        width: 1280px;
+        height: 600px;
+        padding-top: 50px;
+    }
+    .main .section2 .text1
+    {
+        position: absolute;
+        top: 80px;
+        left: 20px;
+        font-size: 10pt;
+        font-family: 'Nanum Myeongjo', serif;
+        font-weight: 700;
+        text-align: center;
+    }
+    .main .section2 .text2
+    {
+        position: absolute;
+        top: 100px;
+        left: 400px;
+        width: 600px;
+        height: 100px;
+    }
+    .main .section3
+    {
+        position: relative;
+        top: 0px;
+        margin: 0px auto;
+        width: 1280px;
+        height: 600px;
+        padding-top: 50px;
+    }
+    .main .section4
+    {
+        position: relative;
+        top: 0px;
+        margin: 0px auto;
+        width: 1280px;
+        height: 600px;
+        padding-top: 50px;
+    }
+</style>
+<body>
+    <header class = "header">
+        <nav class ="nav">
+            <div class = "menu1">회사이름</div>
+            <div class = "menu2">메인 페이지</div>
+            <div class = "menu3">회사 역사</div>
+            <div class = "menu4">예약현황</div>
+            <div class = "menu5">QnA</div>
+        </nav>
+    </header>
+    <main class = "main">
+        <section class = "section1"><img src="img/아르테일 로고.jpg" class = "img1" alt=""></section>
+        <section class = "section2">
+            <div class = "text1">메이플월드 아르테일</div>
+            <div class = "text2">
+                <div style="font-size: 14pt; font-weight: 700;">메이플월드 아르테일에 오신 것을 환영합니다!</div>
+                <div>아르테일은 빅뱅 전 메이플을 기반으로한 게임입니다.</div>
+                <div>사전예약 이벤트를 진행중이오니 아래에 개인 정보를 입력해주시기 바랍니다</div>
+            </div>
+        </section>
+        <section class = "section3">
+            <form action = "main2.html">
+                <div><label>이름</label><input type="text"></div>
+                <div><label>전화번호</label><input type="text"></div>
+                <div><label>생년월일8자리</label><input type="text"></div>
+                <div><input type = "submit" value="정보 제출"></div>
+            </form>
+        </section>
+        <section class = "section4">
+
+        </section>
+    </main>
+    <footer class = "footer"></footer>
+</body>
+</html>
